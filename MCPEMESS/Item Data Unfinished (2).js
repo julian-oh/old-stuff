@@ -1,0 +1,421 @@
+var itemsData = {
+	"256_tool":{
+		"icon":"iron_shovel",
+		"name":"Iron Shovel"
+	},
+	"257_tool":{
+		"icon":"iron_pickaxe",
+		"name":"Iron Pickaxe"
+	},
+	"258_tool":{
+		"icon":"iron_axe",
+		"name":"Iron Axe"
+	},
+	"259_tool":{
+		"icon":"flint_and_steel",
+		"name":"Flint and Steel"
+	},
+	"260_0":{
+		"icon":"apple",
+		"name":"Apple"
+	},
+	"261_tool":{
+		"icon":"bow_standby",
+		"name":"Bow"
+	},
+	"262_0":{
+		"icon":"arrow",
+		"name":"Arrow"
+	},
+	"263_0":{
+		"icon":"coal",
+		"name":"Coal"
+	},
+	"263_1":{
+		"icon":"charcoal",
+		"name":"Charcoal"
+	},
+	"264_0":{
+		"icon":"diamond",
+		"name":"Diamond"
+	},
+	"265_0":{
+		"icon":"iron_ingot",
+		"name":"Iron Ingot"
+	},
+	"266_0":{
+		"icon":"gold_ingot",
+		"name":"Gold Ingot" },
+	"267_tool":{
+		"icon":"iron_sword",
+		"name":"Iron Sword"
+	},
+	"268_tool":{
+		"icon":"wood_sword",
+		"name":"Wooden Sword"
+	},
+	"269_tool":{
+		"icon":"wood_shovel",
+		"name":"Wooden Shovel"
+	},
+	"270_tool":{
+		"icon":"wood_pickaxe",
+		"name":"Wooden Pickaxe"
+	},
+	"271_tool":{
+		"icon":"wood_axe",
+		"name":"Wooden Axe"
+	},
+	"272_tool":{
+		"icon":"stone_sword",
+		"name":"Stone Sword"
+	},
+	"273_tool":{
+		"icon":"stone_shovel",
+		"name":"Stone Shovel"
+	},
+	"274_tool":{
+		"icon":"stone_pickaxe",
+		"name":"Stone Pickaxe"
+	},
+	"275_tool":{
+		"icon":"stone_axe",
+		"name":"Stone Axe"
+	},
+	"276_tool":{
+		"icon":"diamond_sword",
+		"name":"Diamond Sword"
+	},
+	"277_tool":{
+		"icon":"diamond_shovel",
+		"name":"Diamond Shovel"
+	},
+	"278_tool":{
+		"icon":"diamond_pickaxe",
+		"name":"Diamond Pickaxe"
+	},
+	"279_tool":{
+		"icon":"diamond_axe",
+		"name":"Diamond Axe"
+	},
+	"280_0":{
+		"icon":"stick",
+		"name":"Stick"
+	},
+	"281_0":{
+		"icon":"bowl",
+		"name":"Bowl"
+	},
+	"282_0":{
+		"icon":"mushroom_stew",
+		"name":"Mushroom Stew"
+	},
+	"283_tool":{
+		"icon":"gold_sword",
+		"name":"Golden Sword"
+	},
+	"284_tool":{
+		"icon":"gold_shovel",
+		"name":"Golden Shovel"
+	},
+	"285_tool":{
+		"icon":"gold_pickaxe",
+		"name":"Golden Pickaxe"
+	},
+	"285_tool":{
+		"icon":"gold_axe",
+		"name":"Golden Axe"
+	},
+	"286_0":{
+		"icon":"string",
+		"name":"String"
+	},
+	"287_0":{
+		"icon":"feather",
+		"name":"Feather"
+	},
+	"289_0":{
+		"icon":"gunpowder",
+		"name":"Gunpowder"
+	},
+	"290_tool":{
+		"icon":"wood_hoe",
+		"name":"Wooden Hoe"
+	},
+	"291_tool":{
+		"icon":"stone_hoe",
+		"name":"Stone Hoe"
+	},
+	"292_tool":{
+		"icon":"iron_hoe",
+		"name":"Iron Hoe"
+	},
+	"293_tool":{
+		"icon":"diamond_hoe",
+		"name":"Diamond Hoe"
+	},
+	"294_tool":{
+		"icon":"gold_hoe",
+		"name":"Golden Hoe"
+	},
+	"295_0":{
+		"icon":"wheat",
+		"name":"Wheat"
+	},
+	"296_0":{
+		"icon":"seeds_wheat",
+		"name":"Seeds"
+	},
+	"297_0":{
+		"icon":"bread",
+		"name":"Bread"
+	},
+	"280_tool":{
+		"icon":"leather_helmet",
+		"name":"Leather Helmet"
+	},
+	"281_tool":{
+		"icon":"leather_chestplate",
+		"name":"Leather Chestplate"
+	},
+	"282_tool":{
+		"icon":"leather_leggings",
+		"name":"Leather Leggings"
+	},
+	"283_tool":{
+		"icon":"leather_boots",
+		"name":"Leather Boots"
+	},
+	"284_tool":{
+		"icon":"chain_helmet",
+		"name":"Chain Helmet"
+	},
+	"285_tool":{
+		"icon":"chain_chestplate",
+		"name":"Chain Chestplate"
+	},
+	"286_tool":{
+		"icon":"chain_leggings",
+		"name":"Chain Leggings"
+	},
+	"288_tool":{
+		"icon":"chain_boots",
+		"name":"Chain Boots"
+	},
+	"289_tool":{
+		"icon":"iron_helmet",
+		"name":"Iron Helmet"
+	},
+	"290_tool":{
+		"icon":"iron_chestplate",
+		"name":"Iron Chestplate"
+	}/*,
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	},
+	"":{
+		"icon":,
+		"name":
+	}*/
+}
